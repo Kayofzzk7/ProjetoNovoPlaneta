@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenhos Kids</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="navbar-top">
+                <div class="navbar-left">
+                    <div class="logo">
+                        <span>PlanetaKids</span>
+                    </div>
+                </div>
+                <div class="navbar-center">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Buscar desenhos...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="navbar-right">
+                    <button class="login-btn">
+                        <i class="fas fa-user"></i>
+                        <span>Login</span>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Categorias -->
+            <div class="categories">
+                <button class="category-btn active">Todos</button>
+                <button class="category-btn">Educativos</button>
+                <button class="category-btn">Musicais</button>
+                <button class="category-btn">Aventura</button>
+                <button class="category-btn">Animes</button>
+                <button class="category-btn">Pré-escola</button>
+                <button class="category-btn">Clássicos</button>
+            </div>
+        </nav>
+
+        <!-- Conteúdo Principal -->
+        <main class="container">
+            <h1 class="title">Desenhos Animados</h1>
+            
+            <div class="video-grid">
+                <!-- Categoria: Animes (5 cards) -->
+                <div class="video-card" data-category="animes">
+                    <div class="video-thumbnail">
+                        <iframe src="chapim1.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Passaro chapim azul</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="animes">
+                    <div class="video-thumbnail">
+                        <iframe src="abelharuco.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Passaro abelharuco</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="animes">
+                    <div class="video-thumbnail">
+                        <iframe src="robin.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Passaro Robin</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="animes">
+                    <div class="video-thumbnail">
+                        <iframe src="Papagaio.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Papagaio Vermelho</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="animes">
+                    <div class="video-thumbnail">
+                        <iframe src="neve.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Passaro da Neve</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <!-- Categoria: Aventura (5 cards) -->
+                <div class="video-card" data-category="aventura">
+                    <div class="video-thumbnail">
+                        <iframe src="pato.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Pato bebe</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="aventura">
+                    <div class="video-thumbnail">
+                        <iframe src="flamingos.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Flamingos</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="aventura">
+                    <div class="video-thumbnail">
+                        <iframe src="tucano.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Tucano</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="aventura">
+                    <div class="video-thumbnail">
+                        <iframe src="pinguim.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Pinguim Passaro</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="aventura">
+                    <div class="video-thumbnail">
+                        <iframe src="ganso.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Ganso cinzento</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <!-- Categoria: Educativos (5 cards) -->
+                <div class="video-card" data-category="educativos">
+                    <div class="video-thumbnail">
+                        <iframe src="Picapau.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Pica-Pau</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="educativos">
+                    <div class="video-thumbnail">
+                        <iframe src="Abutre.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Passaro Abutre</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="educativos">
+                    <div class="video-thumbnail">
+                        <iframe src="rosa.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Flamingo Rosa</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="educativos">
+                    <div class="video-thumbnail">
+                        <iframe src="cisne.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Cisne</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="educativos">
+                    <div class="video-thumbnail">
+                        <iframe src="b.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Pato Barbary</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <!-- Categoria: Musicais (5 cards) -->
+                <div class="video-card" data-category="musicais">
+                    <div class="video-thumbnail">
+                        <iframe src="Pomba.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Pomba</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="musicais">
+                    <div class="video-thumbnail">
+                        <iframe src="drake.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Pato Drake</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="musicais">
+                    <div class="video-thumbnail">
+                        <iframe src="falcao.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Falcao</h3>
+                        <p>Canal: PassarosOficial</p>
+                        <span class="category-tag">Passaros</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="musicais">
+                    <div class="video-thumbnail">
+                        <iframe src="57753-486147545.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Galinha Pintadinha</h3>
+                        <p>Canal: Galinha Pintadinha</p>
+                        <span class="category-tag">Musicais</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="musicais">
+                    <div class="video-thumbnail">
+                        <iframe src="57753-486147545.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Patati Patatá</h3>
+                        <p>Canal: Patati Patatá</p>
+                        <span class="category-tag">Musicais</span>
+                    </div>
+                </div>
+
+                <!-- Categoria: Pré-escola (5 cards) -->
+                <div class="video-card" data-category="pre-escola">
+                    <div class="video-thumbnail">
+                        <iframe src="57753-486147545.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Peppa Pig</h3>
+                        <p>Canal: Peppa Pig Brasil</p>
+                        <span class="category-tag">Pré-escola</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="pre-escola">
+                    <div class="video-thumbnail">
+                        <iframe src="57753-486147545.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Baby Shark</h3>
+                        <p>Canal: Pinkfong</p>
+                        <span class="category-tag">Pré-escola</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="pre-escola">
+                    <div class="video-thumbnail">
+                        <iframe src="57753-486147545.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Os Backyardigans</h3>
+                        <p>Canal: Nickelodeon</p>
+                        <span class="category-tag">Pré-escola</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="pre-escola">
+                    <div class="video-thumbnail">
+                        <iframe src="57753-486147545.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Dora, a Aventureira</h3>
+                        <p>Canal: Nickelodeon</p>
+                        <span class="category-tag">Pré-escola</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="pre-escola">
+                    <div class="video-thumbnail">
+                        <iframe src="57753-486147545.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Bloco de Brincar</h3>
+                        <p>Canal: Discovery Kids</p>
+                        <span class="category-tag">Pré-escola</span>
+                    </div>
+                </div>
+
+                <!-- Categoria: Clássicos (5 cards) -->
+                <div class="video-card" data-category="classicos">
+                    <div class="video-thumbnail">
+                        <iframe src="57753-486147545.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Pica-Pau</h3>
+                        <p>Canal: Clássicos TV</p>
+                        <span class="category-tag">Clássicos</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="classicos">
+                    <div class="video-thumbnail">
+                        <iframe src="57753-486147545.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Tom e Jerry</h3>
+                        <p>Canal: Clássicos TV</p>
+                        <span class="category-tag">Clássicos</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="classicos">
+                    <div class="video-thumbnail">
+                        <iframe src="57753-486147545.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Looney Tunes</h3>
+                        <p>Canal: Clássicos TV</p>
+                        <span class="category-tag">Clássicos</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="classicos">
+                    <div class="video-thumbnail">
+                        <iframe src="57753-486147545.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Popeye</h3>
+                        <p>Canal: Clássicos TV</p>
+                        <span class="category-tag">Clássicos</span>
+                    </div>
+                </div>
+
+                <div class="video-card" data-category="classicos">
+                    <div class="video-thumbnail">
+                        <iframe src="57753-486147545.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Os Flintstones</h3>
+                        <p>Canal: Clássicos TV</p>
+                        <span class="category-tag">Clássicos</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+            <!-- Seção de Assinatura -->
+            <section class="subscription-section">
+                <h2 class="subscription-title">Assine o PlanetaKids</h2>
+                <p>Desbloqueie acesso ilimitado a todos os nossos desenhos e recursos especiais!</p>
+                
+                <div class="subscription-plans">
+                    <div class="subscription-plan">
+                        <h3 class="plan-name">Básico</h3>
+                        <div class="plan-price">R$14,90</div>
+                        <div class="plan-period">por mês</div>
+                        <ul class="plan-features">
+                            <li>Acesso a todos os desenhos</li>
+                            <li>2 dispositivos simultâneos</li>
+                            <li>Qualidade HD</li>
+                            <li>Sem anúncios</li>
+                        </ul>
+                        <button class="subscribe-btn">Assinar</button>
+                    </div>
+                    
+                    <div class="subscription-plan" style="border: 2px solid #ffd700;">
+                        <h3 class="plan-name">Família</h3>
+                        <div class="plan-price">R$24,90</div>
+                        <div class="plan-period">por mês</div>
+                        <ul class="plan-features">
+                            <li>Todos os benefícios do Básico</li>
+                            <li>4 dispositivos simultâneos</li>
+                            <li>Qualidade Full HD</li>
+                            <li>Downloads para assistir offline</li>
+                            <li>Perfis personalizados</li>
+                        </ul>
+                        <button class="subscribe-btn">Assinar</button>
+                    </div>
+                    
+                    <div class="subscription-plan">
+                        <h3 class="plan-name">Anual</h3>
+                        <div class="plan-price">R$149,90</div>
+                        <div class="plan-period">por ano (economize 20%)</div>
+                        <ul class="plan-features">
+                            <li>Todos os benefícios do Família</li>
+                            <li>1 mês grátis</li>
+                            <li>Presentes exclusivos</li>
+                            <li>Acesso antecipado a novos desenhos</li>
+                        </ul>
+                        <button class="subscribe-btn">Assinar</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+                  <!-- Seção de FAQ -->
+            <section class="faq-section">
+                <h2 class="faq-title">Perguntas Frequentes</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>O que é o PlanetaKids?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O PlanetaKids é uma plataforma segura e divertida para crianças assistirem seus desenhos favoritos. Oferecemos conteúdo educativo e entretenimento de qualidade para todas as idades.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Como posso assinar o PlanetaKids?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Você pode assinar diretamente em nosso site escolhendo um dos planos disponíveis. Aceitamos cartões de crédito e outras formas de pagamento seguras.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>O PlanetaKids tem conteúdo gratuito?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, oferecemos uma seleção de desenhos gratuitos. Para acesso completo a todo nosso catálogo, recomendamos uma assinatura premium.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>É seguro para crianças?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutamente! Todo nosso conteúdo é cuidadosamente selecionado e apropriado para crianças. Não exibimos anúncios de terceiros e temos controles parentais disponíveis.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Posso cancelar a qualquer momento?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, você pode cancelar sua assinatura a qualquer momento sem taxas adicionais. Seu acesso permanecerá até o final do período já pago.</p>
+                    </div>
+                </div>
+            </section>
+
+        <div class="footer-push"></div>
+    </div>
+
+
+<!-- Rodapé -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>Sobre Nós</h4>
+            <p>Planeta Kids é o lugar perfeito para as crianças se divertirem com seus desenhos e vídeos favoritos de forma segura!</p>
+        </div>
+        <div class="footer-section">
+            <h4>Categorias Divertidas</h4>
+            <ul>
+                <li><a href="#">Desenhos Animados</a></li>
+                <li><a href="#">Aventuras e Exploração</a></li>
+                <li><a href="#">Brincando de Criar</a></li> <!-- Alterado para algo mais criativo -->
+                <li><a href="#">Jogos Incríveis</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Entre em Contato</h4>
+            <p>Envie um e-mail para nós: <a href="mailto:contato@planetakids.com">contato@planetakids.com</a></p>
+            <div class="social-icons">
+                <i class="fab fa-facebook" style="color: #3b5998;"></i>
+                <i class="fab fa-instagram" style="color: #e4405f;"></i>
+                <i class="fab fa-youtube" style="color: #ff0000;"></i>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Planeta Kids. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
